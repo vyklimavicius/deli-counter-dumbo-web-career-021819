@@ -19,5 +19,5 @@ def take_a_number(line,name)
   le = line.length;
   line.push(name);
   "Welcome, #{name}. You are number #{le + 1} in line."
-end 
+  end 
 
