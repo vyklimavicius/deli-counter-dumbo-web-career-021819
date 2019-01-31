@@ -12,9 +12,14 @@ end
 
 def take_a_number(line,name)
   i = 0 
+  le = line.length
   if line.length == 0 
     line.push(name)
   end 
   puts "Welcome, #{name}. You are number #{i+1} in line."
+  if line.length > 0 
+    line.push(name)
+  end 
+  puts "Welcome, #{name}. You are number #{le+1} in line."
 end     
 
