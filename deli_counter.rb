@@ -17,7 +17,7 @@ def take_a_number(line,name)
     line.push(name)
   end 
   puts "Welcome, #{name}. You are number #{i+1} in line."
-  if line.length > 0 
+  elsif line.length > 0 
     line.push(name)
   end 
   puts "Welcome, #{name}. You are number #{le+1} in line."
