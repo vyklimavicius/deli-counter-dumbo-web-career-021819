@@ -20,5 +20,8 @@ def take_a_number(line,name)
     line.push(name)
   puts "Welcome, #{name}. You are number #{le+1} in line."
 end 
-end     
+end  
+
+def now_serving(line)
+end 
 
