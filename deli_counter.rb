@@ -11,9 +11,10 @@ end
 end
 
 def take_a_number(line,name)
+  i = 0 
   if line.length == 0 
     line.push(name)
   end 
-  puts "Welcome, #{name}. You are number #{idx+1} in line."
+  puts "Welcome, #{name}. You are number #{i} in line."
 end     
 
