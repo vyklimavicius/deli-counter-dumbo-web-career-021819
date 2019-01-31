@@ -11,13 +11,7 @@ end
 end
 
 def take_a_number(line,name)
-  i = 0 
-  if line.length == 0 
-  line.push(name)
-  "Welcome, #{name}. You are number #{i+1} in line."
-  elsif line.length > 0
-  le = line.length;
-  line.push(name);
-  "Welcome, #{name}. You are number #{le + 1} in line."
-  end 
+  line.each_with_index do |name,idx| 
+    puts ""
+end     
 
