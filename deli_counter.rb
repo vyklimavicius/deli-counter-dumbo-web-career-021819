@@ -13,8 +13,7 @@ end
 def take_a_number(line,name)
   if line.length == 0 
   line.each_with_index do |name,idx|
-    
-    puts "Welcome, #{name}. You are number #{idx} in line."
+    puts "Welcome, #{name}. You are number #{idx+1} in line."
     line.push(name)
   end 
 end 
