@@ -12,5 +12,15 @@ end
 
 def take_a_number(line,name)
   
+  if line.length == 0 
+  line.push(name)
+  return `Welcome, ${name}. You are number ${i+1} in line.`;
+}
+else if (line.length > 0){
+  le = line.length;
+  line.push(name);
+  return `Welcome, ${name}. You are number ${le + 1} in line.`;
+}
+}
 end 
 
