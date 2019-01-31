@@ -10,5 +10,7 @@ def line(line)
 end
 end
 
-def 
+def take_a_number(line,name)
+  
+end 
 
