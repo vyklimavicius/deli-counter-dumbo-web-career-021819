@@ -6,7 +6,7 @@ def line(line)
     line.each_with_index do |name,idx|
       new_string += " #{idx+1}. #{name}"
   end
-  puts "The line is currently: "  + new_string
+  puts "The line is currently:"  + new_string
 end
 end
 
